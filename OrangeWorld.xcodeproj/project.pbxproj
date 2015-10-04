@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001BA5CA1BC15B7400A297FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5C91BC15B7400A297FE /* AppDelegate.swift */; };
+		001BA5CC1BC15B7400A297FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5CB1BC15B7400A297FE /* ViewController.swift */; };
+		001BA5CF1BC15B7400A297FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5CD1BC15B7400A297FE /* Main.storyboard */; };
+		001BA5D11BC15B7400A297FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5D01BC15B7400A297FE /* Assets.xcassets */; };
+		001BA5D41BC15B7400A297FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5D21BC15B7400A297FE /* LaunchScreen.storyboard */; };
+		001BA5D91BC15B7400A297FE /* OrangeWorld WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 001BA5D81BC15B7400A297FE /* OrangeWorld WatchKit App.app */; };
+		001BA5DF1BC15B7400A297FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5DD1BC15B7400A297FE /* Interface.storyboard */; };
+		001BA5E11BC15B7400A297FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5E01BC15B7400A297FE /* Assets.xcassets */; };
+		001BA5E81BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 001BA5E71BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		001BA5EF1BC15B7400A297FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5EE1BC15B7400A297FE /* InterfaceController.swift */; };
+		001BA5F11BC15B7400A297FE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F01BC15B7400A297FE /* ExtensionDelegate.swift */; };
+		001BA5F31BC15B7400A297FE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F21BC15B7400A297FE /* NotificationController.swift */; };
+		001BA5F51BC15B7400A297FE /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F41BC15B7400A297FE /* GlanceController.swift */; };
+		001BA5F71BC15B7400A297FE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F61BC15B7400A297FE /* ComplicationController.swift */; };
+		001BA5F91BC15B7400A297FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5F81BC15B7400A297FE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001BA5DA1BC15B7400A297FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001BA5BE1BC15B7400A297FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001BA5D71BC15B7400A297FE;
+			remoteInfo = "OrangeWorld WatchKit App";
+		};
+		001BA5E91BC15B7400A297FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001BA5BE1BC15B7400A297FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001BA5E61BC15B7400A297FE;
+			remoteInfo = "OrangeWorld WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		001BA6001BC15B7400A297FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				001BA5E81BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001BA6041BC15B7400A297FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				001BA5D91BC15B7400A297FE /* OrangeWorld WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		001BA5C61BC15B7400A297FE /* OrangeWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001BA5C91BC15B7400A297FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001BA5CB1BC15B7400A297FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		001BA5CE1BC15B7400A297FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001BA5D01BC15B7400A297FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001BA5D31BC15B7400A297FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001BA5D51BC15B7400A297FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001BA5D81BC15B7400A297FE /* OrangeWorld WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OrangeWorld WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001BA5DE1BC15B7400A297FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		001BA5E01BC15B7400A297FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001BA5E21BC15B7400A297FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001BA5E71BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OrangeWorld WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001BA5ED1BC15B7400A297FE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		001BA5EE1BC15B7400A297FE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		001BA5F01BC15B7400A297FE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		001BA5F21BC15B7400A297FE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		001BA5F41BC15B7400A297FE /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		001BA5F61BC15B7400A297FE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		001BA5F81BC15B7400A297FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001BA5FA1BC15B7400A297FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001BA5C31BC15B7400A297FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001BA5E41BC15B7400A297FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001BA5BD1BC15B7400A297FE = {
+			isa = PBXGroup;
+			children = (
+				001BA5C81BC15B7400A297FE /* OrangeWorld */,
+				001BA5DC1BC15B7400A297FE /* OrangeWorld WatchKit App */,
+				001BA5EB1BC15B7400A297FE /* OrangeWorld WatchKit Extension */,
+				001BA5C71BC15B7400A297FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001BA5C71BC15B7400A297FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001BA5C61BC15B7400A297FE /* OrangeWorld.app */,
+				001BA5D81BC15B7400A297FE /* OrangeWorld WatchKit App.app */,
+				001BA5E71BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001BA5C81BC15B7400A297FE /* OrangeWorld */ = {
+			isa = PBXGroup;
+			children = (
+				001BA5C91BC15B7400A297FE /* AppDelegate.swift */,
+				001BA5CB1BC15B7400A297FE /* ViewController.swift */,
+				001BA5CD1BC15B7400A297FE /* Main.storyboard */,
+				001BA5D01BC15B7400A297FE /* Assets.xcassets */,
+				001BA5D21BC15B7400A297FE /* LaunchScreen.storyboard */,
+				001BA5D51BC15B7400A297FE /* Info.plist */,
+			);
+			path = OrangeWorld;
+			sourceTree = "<group>";
+		};
+		001BA5DC1BC15B7400A297FE /* OrangeWorld WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				001BA5DD1BC15B7400A297FE /* Interface.storyboard */,
+				001BA5E01BC15B7400A297FE /* Assets.xcassets */,
+				001BA5E21BC15B7400A297FE /* Info.plist */,
+			);
+			path = "OrangeWorld WatchKit App";
+			sourceTree = "<group>";
+		};
+		001BA5EB1BC15B7400A297FE /* OrangeWorld WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				001BA5EE1BC15B7400A297FE /* InterfaceController.swift */,
+				001BA5F01BC15B7400A297FE /* ExtensionDelegate.swift */,
+				001BA5F21BC15B7400A297FE /* NotificationController.swift */,
+				001BA5F41BC15B7400A297FE /* GlanceController.swift */,
+				001BA5F61BC15B7400A297FE /* ComplicationController.swift */,
+				001BA5F81BC15B7400A297FE /* Assets.xcassets */,
+				001BA5FA1BC15B7400A297FE /* Info.plist */,
+				001BA5EC1BC15B7400A297FE /* Supporting Files */,
+			);
+			path = "OrangeWorld WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		001BA5EC1BC15B7400A297FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				001BA5ED1BC15B7400A297FE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001BA5C51BC15B7400A297FE /* OrangeWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001BA6051BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld" */;
+			buildPhases = (
+				001BA5C21BC15B7400A297FE /* Sources */,
+				001BA5C31BC15B7400A297FE /* Frameworks */,
+				001BA5C41BC15B7400A297FE /* Resources */,
+				001BA6041BC15B7400A297FE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001BA5DB1BC15B7400A297FE /* PBXTargetDependency */,
+			);
+			name = OrangeWorld;
+			productName = OrangeWorld;
+			productReference = 001BA5C61BC15B7400A297FE /* OrangeWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		001BA5D71BC15B7400A297FE /* OrangeWorld WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001BA6011BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld WatchKit App" */;
+			buildPhases = (
+				001BA5D61BC15B7400A297FE /* Resources */,
+				001BA6001BC15B7400A297FE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001BA5EA1BC15B7400A297FE /* PBXTargetDependency */,
+			);
+			name = "OrangeWorld WatchKit App";
+			productName = "OrangeWorld WatchKit App";
+			productReference = 001BA5D81BC15B7400A297FE /* OrangeWorld WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		001BA5E61BC15B7400A297FE /* OrangeWorld WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001BA5FD1BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld WatchKit Extension" */;
+			buildPhases = (
+				001BA5E31BC15B7400A297FE /* Sources */,
+				001BA5E41BC15B7400A297FE /* Frameworks */,
+				001BA5E51BC15B7400A297FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrangeWorld WatchKit Extension";
+			productName = "OrangeWorld WatchKit Extension";
+			productReference = 001BA5E71BC15B7400A297FE /* OrangeWorld WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001BA5BE1BC15B7400A297FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ING;
+				TargetAttributes = {
+					001BA5C51BC15B7400A297FE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					001BA5D71BC15B7400A297FE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					001BA5E61BC15B7400A297FE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 001BA5C11BC15B7400A297FE /* Build configuration list for PBXProject "OrangeWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001BA5BD1BC15B7400A297FE;
+			productRefGroup = 001BA5C71BC15B7400A297FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001BA5C51BC15B7400A297FE /* OrangeWorld */,
+				001BA5D71BC15B7400A297FE /* OrangeWorld WatchKit App */,
+				001BA5E61BC15B7400A297FE /* OrangeWorld WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001BA5C41BC15B7400A297FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BA5D41BC15B7400A297FE /* LaunchScreen.storyboard in Resources */,
+				001BA5D11BC15B7400A297FE /* Assets.xcassets in Resources */,
+				001BA5CF1BC15B7400A297FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001BA5D61BC15B7400A297FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BA5E11BC15B7400A297FE /* Assets.xcassets in Resources */,
+				001BA5DF1BC15B7400A297FE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001BA5E51BC15B7400A297FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BA5F91BC15B7400A297FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001BA5C21BC15B7400A297FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BA5CC1BC15B7400A297FE /* ViewController.swift in Sources */,
+				001BA5CA1BC15B7400A297FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001BA5E31BC15B7400A297FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001BA5F31BC15B7400A297FE /* NotificationController.swift in Sources */,
+				001BA5F11BC15B7400A297FE /* ExtensionDelegate.swift in Sources */,
+				001BA5F71BC15B7400A297FE /* ComplicationController.swift in Sources */,
+				001BA5EF1BC15B7400A297FE /* InterfaceController.swift in Sources */,
+				001BA5F51BC15B7400A297FE /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001BA5DB1BC15B7400A297FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001BA5D71BC15B7400A297FE /* OrangeWorld WatchKit App */;
+			targetProxy = 001BA5DA1BC15B7400A297FE /* PBXContainerItemProxy */;
+		};
+		001BA5EA1BC15B7400A297FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001BA5E61BC15B7400A297FE /* OrangeWorld WatchKit Extension */;
+			targetProxy = 001BA5E91BC15B7400A297FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		001BA5CD1BC15B7400A297FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001BA5CE1BC15B7400A297FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001BA5D21BC15B7400A297FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001BA5D31BC15B7400A297FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		001BA5DD1BC15B7400A297FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001BA5DE1BC15B7400A297FE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001BA5FB1BC15B7400A297FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001BA5FC1BC15B7400A297FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001BA5FE1BC15B7400A297FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "OrangeWorld WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		001BA5FF1BC15B7400A297FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "OrangeWorld WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		001BA6021BC15B7400A297FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = OrangeWorld_WatchKit_Extension;
+				INFOPLIST_FILE = "OrangeWorld WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		001BA6031BC15B7400A297FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = OrangeWorld_WatchKit_Extension;
+				INFOPLIST_FILE = "OrangeWorld WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		001BA6061BC15B7400A297FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrangeWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		001BA6071BC15B7400A297FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrangeWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001BA5C11BC15B7400A297FE /* Build configuration list for PBXProject "OrangeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BA5FB1BC15B7400A297FE /* Debug */,
+				001BA5FC1BC15B7400A297FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001BA5FD1BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BA5FE1BC15B7400A297FE /* Debug */,
+				001BA5FF1BC15B7400A297FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		001BA6011BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BA6021BC15B7400A297FE /* Debug */,
+				001BA6031BC15B7400A297FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		001BA6051BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001BA6061BC15B7400A297FE /* Debug */,
+				001BA6071BC15B7400A297FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001BA5BE1BC15B7400A297FE /* Project object */;
+}
