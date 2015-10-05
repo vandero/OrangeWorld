@@ -22,6 +22,12 @@
 		001BA5F51BC15B7400A297FE /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F41BC15B7400A297FE /* GlanceController.swift */; };
 		001BA5F71BC15B7400A297FE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA5F61BC15B7400A297FE /* ComplicationController.swift */; };
 		001BA5F91BC15B7400A297FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001BA5F81BC15B7400A297FE /* Assets.xcassets */; };
+		001BA6091BC15C1A00A297FE /* CategoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA6081BC15C1A00A297FE /* CategoryRowController.swift */; };
+		001BA60B1BC1695500A297FE /* DealOverviewInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA60A1BC1695500A297FE /* DealOverviewInterfaceController.swift */; };
+		001BA60D1BC16CE400A297FE /* DealDetailsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BA60C1BC16CE400A297FE /* DealDetailsInterfaceController.swift */; };
+		00DBE4C41BC27D7F00618F1F /* OrangeDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE4C31BC27D7F00618F1F /* OrangeDeal.swift */; };
+		00DBE4C61BC281E600618F1F /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE4C51BC281E600618F1F /* MainInterfaceController.swift */; };
+		00DBE4C81BC2829B00618F1F /* MainInterfaceRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE4C71BC2829B00618F1F /* MainInterfaceRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +93,12 @@
 		001BA5F61BC15B7400A297FE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		001BA5F81BC15B7400A297FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001BA5FA1BC15B7400A297FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001BA6081BC15C1A00A297FE /* CategoryRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRowController.swift; sourceTree = "<group>"; };
+		001BA60A1BC1695500A297FE /* DealOverviewInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealOverviewInterfaceController.swift; sourceTree = "<group>"; };
+		001BA60C1BC16CE400A297FE /* DealDetailsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealDetailsInterfaceController.swift; sourceTree = "<group>"; };
+		00DBE4C31BC27D7F00618F1F /* OrangeDeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeDeal.swift; sourceTree = "<group>"; };
+		00DBE4C51BC281E600618F1F /* MainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		00DBE4C71BC2829B00618F1F /* MainInterfaceRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +173,12 @@
 				001BA5F81BC15B7400A297FE /* Assets.xcassets */,
 				001BA5FA1BC15B7400A297FE /* Info.plist */,
 				001BA5EC1BC15B7400A297FE /* Supporting Files */,
+				001BA6081BC15C1A00A297FE /* CategoryRowController.swift */,
+				001BA60A1BC1695500A297FE /* DealOverviewInterfaceController.swift */,
+				001BA60C1BC16CE400A297FE /* DealDetailsInterfaceController.swift */,
+				00DBE4C31BC27D7F00618F1F /* OrangeDeal.swift */,
+				00DBE4C51BC281E600618F1F /* MainInterfaceController.swift */,
+				00DBE4C71BC2829B00618F1F /* MainInterfaceRowController.swift */,
 			);
 			path = "OrangeWorld WatchKit Extension";
 			sourceTree = "<group>";
@@ -313,11 +331,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DBE4C61BC281E600618F1F /* MainInterfaceController.swift in Sources */,
+				001BA60D1BC16CE400A297FE /* DealDetailsInterfaceController.swift in Sources */,
 				001BA5F31BC15B7400A297FE /* NotificationController.swift in Sources */,
+				001BA60B1BC1695500A297FE /* DealOverviewInterfaceController.swift in Sources */,
 				001BA5F11BC15B7400A297FE /* ExtensionDelegate.swift in Sources */,
+				001BA6091BC15C1A00A297FE /* CategoryRowController.swift in Sources */,
 				001BA5F71BC15B7400A297FE /* ComplicationController.swift in Sources */,
 				001BA5EF1BC15B7400A297FE /* InterfaceController.swift in Sources */,
+				00DBE4C41BC27D7F00618F1F /* OrangeDeal.swift in Sources */,
 				001BA5F51BC15B7400A297FE /* GlanceController.swift in Sources */,
+				00DBE4C81BC2829B00618F1F /* MainInterfaceRowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrangeWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrangeWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ing.OrangeWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +576,7 @@
 				001BA5FF1BC15B7400A297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		001BA6011BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +585,7 @@
 				001BA6031BC15B7400A297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		001BA6051BC15B7400A297FE /* Build configuration list for PBXNativeTarget "OrangeWorld" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +594,7 @@
 				001BA6071BC15B7400A297FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
